@@ -169,11 +169,11 @@ section{
 }
 
 .about-img img{
-    height: 300px;
-    width: 23vw;
+    height: 330px;
+    width: 21vw;
     object-fit: cover;
     object-position: center;
-    border-radius: 10px;
+    border-radius: 15px;
     
 }
 
@@ -368,7 +368,7 @@ bottom:30px;
 
 form{
     position: relative;
-    bottom: 350px;
+    bottom: 360px;
 }
 .contact>a{
     margin: 0,10px;
