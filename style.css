@@ -356,6 +356,23 @@ bottom:30px;
 .contact form .btn-box.button{
     cursor: pointer;
 }
+.contact>div{
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    position: relative;
+    top:60px;
+    left: 60px;
+    
+}
+
+form{
+    position: relative;
+    bottom: 350px;
+}
+.contact>a{
+    margin: 0,10px;
+}
 /* qualification */
 .education{
     display: flex;
