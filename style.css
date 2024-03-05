@@ -356,23 +356,8 @@ bottom:30px;
 .contact form .btn-box.button{
     cursor: pointer;
 }
-.contact>div{
-    display: flex;
-    flex-direction: column;
-    width: 5%;
-    position: relative;
-    top:60px;
-    left: 60px;
-    
-}
 
-form{
-    position: relative;
-    bottom: 360px;
-}
-.contact>a{
-    margin: 0,10px;
-}
+
 /* qualification */
 .education{
     display: flex;
@@ -690,6 +675,9 @@ form{
     .contact form .input-box input{
         width: 100%;
     }
+    .contact a{
+        width: 100%;
+    }
 }
 @media(max-width:365px)
 {
@@ -706,4 +694,6 @@ form{
         text-align: center;
         margin-top:2rem
     }
+    
 }
+
