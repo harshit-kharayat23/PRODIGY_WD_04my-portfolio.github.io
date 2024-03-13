@@ -7,7 +7,6 @@ menuIcon.onclick=()=>{
 
 };
 
-
 // smoothScroll
 function smoothScroll(target) {
     const element = document.querySelector(target);
@@ -33,6 +32,15 @@ window.onscroll=()=>{
     menuIcon.classList.remove('bx-x');
     navbar.classList.remove('active');
 }
+//toggle
+let icon = document.getElementById("theme-toggle");
+let modeSwitch = document.getElementById("mode-switch");
+
+icon.onclick = function() {
+    document.body.classList.toggle("light-theme");
+    
+}
+
 // scroll reveal
 ScrollReveal({ 
     // reset: true,
